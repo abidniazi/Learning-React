@@ -11,8 +11,15 @@ let [counter,setcounter]=useState(0)
 let increment =()=>{
   // console.log("clicked",Math.random())
   // counter+1;
-  if(counter<20){
-  setcounter(counter+1)}
+//   if(counter<20){
+//   setcounter(counter+1)}
+// }
+
+   setcounter((prevcounter)=>prevcounter+1) //React batching
+   setcounter((prevcounter)=>prevcounter+1)
+   setcounter((prevcounter)=>prevcounter+1)
+   setcounter((prevcounter)=>prevcounter+1)
+
 }
 
 let decrement =()=>{
