@@ -1,0 +1,25 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+  background-color: aqua;
+  height: 100vh;
+  width: 100vw;
+}
+.main{
+  width: 100%;
+  height: 100vh;
+}
+
+.btn{
+margin: 4px;
+padding: 10px;
+border-radius: 80%;
+color: black;
+
+}
+.btn:hover{
+  cursor: pointer;
+}
