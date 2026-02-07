@@ -26,6 +26,10 @@ padding-top:10px ;
   border-radius: 8px;
   color: black;
   width: 200px;
+  border: none;
+}
+.input:focus{
+  outline: none;
 }
 .copy{
   padding: 4px;
