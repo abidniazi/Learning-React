@@ -5,7 +5,6 @@ function App() {
 
   return (
     <>
-    <h1 className='text-red'>Routes</h1>
     </>
   )
 }
