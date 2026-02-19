@@ -1,11 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
-function Header({value}){
-const [count,setcount]=useState(0)
+function Header({value,age="22"}){
+const [text,settext]=useState("")
+// useEffect(()=>{
+//     alert(`text entered${text}`)
+// },[text])
 return(
 <>
-<h1>Header : {value}</h1>
-<input type="text" />
+<h1>Header : {value} :{age}</h1>
+<input type="text" placeholder="pass" 
+value={text}
+onChange={(e)=>settext(e.target.value)}
+/>
+
+<p>yoou typed: {text}</p>
 
 
 
