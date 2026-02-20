@@ -4,8 +4,8 @@ const Context = createContext({
 todos: [
     {
         id:1,
-        name:"name",
-        age:20
+        todo:"name",
+        completed:false
     }
 
 ],
